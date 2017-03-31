@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="diviniti portal validation" duration-ms="20661" started-at="2017-03-31T07:19:57Z" finished-at="2017-03-31T07:20:18Z">
+    <groups>
+    </groups>
+    <test name="Functionaltest" duration-ms="20661" started-at="2017-03-31T07:19:57Z" finished-at="2017-03-31T07:20:18Z">
+      <class name="testcases.Verifyhomepage">
+        <test-method status="PASS" signature="callingsetup()[pri:0, instance:testcases.Verifyhomepage@d8355a8]" name="callingsetup" is-config="true" duration-ms="19935" started-at="2017-03-31T00:19:57Z" finished-at="2017-03-31T00:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callingsetup -->
+        <test-method status="PASS" signature="verifyhomepage()[pri:0, instance:testcases.Verifyhomepage@d8355a8]" name="verifyhomepage" duration-ms="63" started-at="2017-03-31T00:20:17Z" finished-at="2017-03-31T00:20:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepage -->
+        <test-method status="PASS" signature="after()[pri:0, instance:testcases.Verifyhomepage@d8355a8]" name="after" is-config="true" duration-ms="642" started-at="2017-03-31T00:20:17Z" finished-at="2017-03-31T00:20:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- testcases.Verifyhomepage -->
+    </test> <!-- Functionaltest -->
+  </suite> <!-- diviniti portal validation -->
+</testng-results>

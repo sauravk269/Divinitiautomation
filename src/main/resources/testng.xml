@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="diviniti portal validation">
+<listeners>
+<listener class-name="utility.Listner"></listener>
+</listeners>
+  <test name="Functionaltest">
+  <classes>
+   <class name="testcases.Verifyhomepage"/>
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

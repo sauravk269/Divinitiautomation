@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Functional test(failed)">
+    <classes>
+      <class name="testcases.Verifyhomepage">
+        <methods>
+          <include name="verifyhomepage"/>
+        </methods>
+      </class> <!-- testcases.Verifyhomepage -->
+    </classes>
+  </test> <!-- Functional test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

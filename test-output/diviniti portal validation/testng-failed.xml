@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [diviniti portal validation]">
+  <listeners>
+    <listener class-name="utility.Listner"/>
+  </listeners>
+  <test name="Functionaltest(failed)">
+    <classes>
+      <class name="testcases.Verifyhomepage">
+        <methods>
+          <include name="verifyhomepage"/>
+          <include name="callingsetup"/>
+        </methods>
+      </class> <!-- testcases.Verifyhomepage -->
+    </classes>
+  </test> <!-- Functionaltest(failed) -->
+</suite> <!-- Failed suite [diviniti portal validation] -->
