@@ -12,18 +12,18 @@ public class Verifyhomepage {
 	@BeforeMethod
 	public void callingsetup() throws Exception{
 		driver=Setupactivity.setup();
-		}
+	}
 	@Test(priority=0)
 	public void verifyhomepage() {
 		String title= driver.getTitle();
 		System.out.println("Title of the page is "+title);
 		Assert.assertTrue(title.contains("Online Gift Shop"));
-		
+
 	}
 	@AfterMethod
 	public void after(){
 		driver.quit();
-		
+
 	}
 
 }
